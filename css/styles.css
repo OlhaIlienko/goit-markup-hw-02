@@ -10,6 +10,7 @@
     --main-bgr-color: #2F303A;
     --bgr-second-color: #F5F5F5;
     --contacts-link-color: rgba(255, 255, 255, 0.6);
+    --active-btn-bgr: #188CE8;
 }
 
 body {
@@ -120,12 +121,12 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.section-first-btn:hover {
-    background-color: ;
+.order-btn:hover {
+    background-color: var(--active-btn-bgr);
 }
 
-.section-first-btn:focus {
-    background-color: ;
+.order-btn:focus {
+    background-color: var(--active-btn-bgr);
 }
 
 .features-section {
